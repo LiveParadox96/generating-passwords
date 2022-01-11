@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>generating passwords</title>
+</head>
+<body>
+    <div class="work">
+            <div class="lenght">Длина пароля:
+                <input class="input_lenght" type="text" placeholder="Количество символов.." id="inp">
+            </div>
+            <div>
+                <button class="generation" id="gen" onclick="num()">Генерировать</button>
+            </div>
+            <div class="return">Ваш пароль:
+                <input class="input_return" id="password" readonly maxlength="22" placeholder="Ваш результат"> 
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
